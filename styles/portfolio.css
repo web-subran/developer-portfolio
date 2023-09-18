@@ -1,0 +1,50 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+/* Common CSS Style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav li a{
+    text-decoration: none;
+}
